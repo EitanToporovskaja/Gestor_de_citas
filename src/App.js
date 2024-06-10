@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Formulario from './formulario.jsx'
+import Listado from './listado.jsx'
+import React, { useState } from 'react';
 function App() {
+  const [citas,setCitas] = useState ([]);
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Formulario setCitas={setCitas}> </Formulario>
+        <Listado citas={citas} setCitas={setCitas}></Listado>
       </header>
     </div>
   );
