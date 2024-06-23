@@ -16,7 +16,7 @@ const Input = ({ type, value, onChange }) => {
 };
 
 Input.propTypes = {
-  type: PropTypes.oneOf(['text', 'date', 'time']),
+  type: PropTypes.oneOf(['text', 'date', 'time']).isRequired,
   value: PropTypes.any.isRequired,
   onChange: PropTypes.func.isRequired,
 };

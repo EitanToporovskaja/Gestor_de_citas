@@ -1,13 +1,15 @@
 import React from 'react';
-import style from './style'
+import PropTypes from 'prop-types';
+import { style } from './style';
 
-// Define el componente DeleteButton
-const DeleteButton = ({ onClick }) => {
+const BotonEliminar = ({ onClick }) => {
   return (
-    <button onClick={onClick} style={style.button}>
-      ELIMINAR ×
-    </button>
+    <button style={style.button} onClick={onClick}>Eliminar</button>
   );
 };
 
-export default DeleteButton;
+BotonEliminar.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
+
+export default BotonEliminar;

@@ -10,12 +10,7 @@ const TomarCitas = ( props ) =>{
             <div class="cards">
                 <div class="card">
                     <Formulario/>
-                    {/*<Card
-                    name={users.map(user => <li>{user.name.first}</li>)}
-                    photo={users.map(user => <img src={user.picture.large} alt="imagen user"/>)} 
-                    country={users.map(user => <li>{user.location.country}</li>)}
-                    city={users.map(user => <li>{user.location.city}</li>)}
-            /> */}                   
+                               
                 </div>
             </div>
         </div>
