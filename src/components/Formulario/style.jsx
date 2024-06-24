@@ -6,6 +6,9 @@ export const style = {
       border: '1px solid #ccc',
       borderRadius: '5px',
       boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+      display:"flex",
+      flexDirection:"column",
+      justifyContent:"center"
     },
     label: {
       display: 'block',

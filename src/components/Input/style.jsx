@@ -1,6 +1,7 @@
 export const style = {
     default: {
       width: '100%',
+      margin:"0",
       padding: '10px',
       marginBottom: '10px',
       borderRadius: '3px',

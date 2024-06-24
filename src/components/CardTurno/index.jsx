@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {style} from './style';
+import { style } from './style';
 import BotonEliminar from '../BotonEliminar';
 
-const CardTurno= ({ petName, ownerName, date, time, symptoms, onDelete }) => {
+const CardTurno = ({ petName, ownerName, date, time, symptoms, onDelete }) => {
   return (
     <div style={style.card}>
-      <h2>Mascota: {petName}</h2>
-      <p>Dueño: {ownerName}</p>
-      <p>Fecha: {date}</p>
-      <p>Hora: {time}</p>
-      <p>Síntomas: {symptoms}</p>
-      <BotonEliminar onClick={onDelete}/>
+      <h2 style={style.petName}>{petName}</h2>
+      <p style={style.ownerInfo}>Dueño: {ownerName}</p>
+      <p style={style.dateTime}>Fecha: {date}</p>
+      <p style={style.dateTime}>Hora: {time}</p>
+      <p style={style.symptoms}>Síntomas: {symptoms}</p>
+      <BotonEliminar onClick={onDelete} />
     </div>
   );
 };
