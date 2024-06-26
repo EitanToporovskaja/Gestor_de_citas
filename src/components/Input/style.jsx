@@ -3,7 +3,7 @@ export const style = {
       width: '100%',
       margin:"0",
       padding: '10px',
-      marginBottom: '10px',
+      margin: '1%',
       borderRadius: '3px',
       border: '1px solid #ccc',
       boxSizing: 'border-box',

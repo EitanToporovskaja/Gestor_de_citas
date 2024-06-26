@@ -15,14 +15,6 @@ export const style = {
       marginBottom: '5px',
       fontWeight: 'bold',
     },
-    input: {
-      width: '100%',
-      padding: '10px',
-      marginBottom: '10px',
-      borderRadius: '3px',
-      border: '1px solid #ccc',
-      boxSizing: 'border-box',
-    },
     textarea: {
       width: '100%',
       padding: '10px',
