@@ -48,7 +48,6 @@ const Formulario = () => {
     const confirmDelete = window.confirm('¿Está seguro que desea eliminar esta cita?');
     if (confirmDelete) {
       setCards(cards.filter((_, i) => i !== index));
-      🪳
     }
   };
 
